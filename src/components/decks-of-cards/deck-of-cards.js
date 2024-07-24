@@ -52,8 +52,8 @@ const DeckOfCards = () => {
                     {
                         deck.requested_cards.map((card) => {
                             return (
-                                <li key={card.code}>
-                                    <img key={card.code} src={card.image} alt={card.value}></img>
+                                <li key={card.image}>
+                                    <img key={card.image} src={card.image} alt={card.value}></img>
                                 </li>
                             )
                         })
